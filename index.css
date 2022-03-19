@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #242426;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #242426;
+  /* color: black; */
+  border-bottom: 2px solid #fff;
+  justify-content: start;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  order: 1;
+}
+
+.brand {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+  order: 1;
+  height: 10vh;
+  width: 25vw;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5vw;
+  cursor: pointer;
+}
+
+.brand1 {
+  color: #fff;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  /* font-size: 2em; */
+  /* font-weight: bolder; */
+  /* order: 1; */
+  /* height: 10vh; */
+  /* width: 25vw; */
+  /* border: 1px solid black; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* margin-left: 5vw; */
+  /* cursor: pointer; */
+}
+
+.navigation {
+  order: 2;
+  height: 10vh;
+  width: 75vw;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  height: 6vh;
+  width: 12vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid black; */
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.item:hover {
+  background-color: rgb(48, 130, 253);
+}
+
+.mid-bar {
+  background-image: url("girlEducation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)); */
+  /* border: 1px solid #fff; */
+  height: 130vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
+  order: 2;
+}
+
+.content {
+  height: 60vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid yellow; */
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+
+.content-1 {
+  height: 80vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid yellow; */
+  margin-left: 100px;
+  margin-bottom: 250px;
+}
+
+.content-c {
+  height: 60vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid yellow; */
+  margin-left: 100px;
+  margin-bottom: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.quote {
+  height: 100vh;
+  width: 40vw;
+  margin-top: 5px;
+  text-align: justify;
+  /* margin-left: 200px;
+  margin-bottom: 500px; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  /* font-weight: bold; */
+  /* border: 1px solid yellow; */
+  /* order: 1; */
+}
+
+.donate-btn {
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(247, 2, 104);
+  border-radius: 5px;
+  border: 1px solid #fff;
+  /* order: 2; */
+  margin-top: 5px;
+}
+
+.donate-btn:hover {
+  transform: scale(1.05);
+  border: none;
+  background-color: rgb(48, 130, 253);
+  box-shadow: 0px 0px 10px rgb(252, 252, 252);
+}
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #242426;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 2px solid #fff;
+  /* position: fixed;
+  z-index: -1;
+  bottom: 0; */
+  order: 3;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  height: 40px;
+  width: 300px;
+  margin-top: 5px;
+  background-color: rgba(255, 255, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.05em;
+  /* font-weight: bold; */
+}
+
+button {
+  color: #fff;
+  height: 40px;
+  width: 150px;
+  margin-top: 10px;
+  background-color: rgb(48, 130, 253);
+  border: none;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.mail-us {
+  margin-top: 50px;
+}
+.connect-us {
+  margin-bottom: 10px;
+}
